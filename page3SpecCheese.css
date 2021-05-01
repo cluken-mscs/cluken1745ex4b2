@@ -1,0 +1,42 @@
+﻿body {
+    background-color:coral;
+}
+
+h1 {
+    color: #800000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: italic;
+}
+
+.pic1 {
+    position: center;
+    padding-left: 50px;
+
+}
+
+h2 {
+    background-color: #800000;
+    padding-left: 5em;
+    color: ivory;
+}
+
+
+
+h4 {
+    color: #800000;
+    padding-left: 10em;
+}
+
+.popover {
+    position: fixed;
+    color: #800000;
+}
+
+.quiz {
+    background-color: #b98686;
+    color: ivory;
+}
+
+.container {
+    background-color: #dadb9e;
+}

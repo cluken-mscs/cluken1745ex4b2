@@ -1,0 +1,21 @@
+﻿body {
+    color: green;
+    font-size:larger;
+    background-color: lightgoldenrodyellow;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align:center;
+}
+.homeLink {
+    display: block;
+    position: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}

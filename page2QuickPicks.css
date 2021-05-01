@@ -1,0 +1,75 @@
+﻿body {
+}
+
+h1 {
+    color: #800000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: italic;
+}
+
+.pic1 {
+    position: center;
+    padding-left: 50px;
+}
+
+h2 {
+    background-color: #808000;
+}
+
+p {
+}
+
+h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #FF0000;
+}
+
+h4 {
+    color: #F1B0B7;
+}
+
+body {
+    background-color: #c78181;
+}
+
+table.schedule {
+    border: thin red dashed;
+    width: 100%;
+    border-collapse: collapse;
+    height: 600px;
+    text-align: right;
+}
+
+table.TicTacToe {
+    border: thin red dashed;
+    border-collapse: collapse;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    border: blue thin solid;
+    color: black;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+    th.TTT {
+    border: #F1B0B7 thin solid;
+    color: #FF6666;
+    background-color: #4b4646;
+    text-align: center;
+    width: 50px;
+}
+
+td {
+    border: #F1B0B7 thin solid;
+    vertical-align: top;
+}
+
+    td.TTT {
+        vertical-align: middle;
+        width: 50px;
+    }

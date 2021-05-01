@@ -1,0 +1,17 @@
+﻿h1 {
+    color: #F08080;
+}
+
+body {
+    background-color: #722121;
+}
+
+.col-sm-6 {
+    background-color: saddlebrown
+}
+
+.card {
+    background: #722121;
+    border-radius: 5%;
+    color: ivory;
+}

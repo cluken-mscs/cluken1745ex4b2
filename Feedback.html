@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Modification made in remote origin/master -->
+    <title>Gourmetzing! Feedback</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gourmetzing feedback! Tell us what you think of our site and how we can improve!" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="custom.css" rel="stylesheet" />
+    <link href="page9Form.css" rel="stylesheet" type="text/css" />
+    <!-- modification made in mswanson3bTrex branch -->
+</head>
+<body>
+    <div class="container">
+        <!-- A horizontal navbar that becomes vertical on small screens -->
+        <nav class="navbar navbar-expand-sm navbar-custom">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Sites</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="mswansonTrex/default.html">MSwanson Trex</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="default.html">Home</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="QuickPicks.html">Quick Picks</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="SpecialtyCheese.html">Specialty Cheese</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="Charcuterie.html">Charcuterie</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="CraftBeer.html">Craft Beer</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="HowToPair.html">How to Pair</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="Awards.html">Awards</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="History.html">History</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="Feedback.html">Feedback</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Site 2.1</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron text-white"
+             style="background-image: url(images/headerBackground2.png); background-repeat: no-repeat; background-size: cover;">
+            <h1>Contact Us:</h1>
+            <p>We love feedback! Please contact us using the form below and we will get back to you as soon as possible. Thank you.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-left: 0px">
+            <div class="col-sm-6 col-md-4 text-light bg-secondary">
+                <fieldset id="contactInformation">
+                    <legend>Viewer's Contact Information</legend>
+
+
+                    <div class="contactRow">
+                        <label for="name">Name*</label>
+                        <div class="input">
+                            <input name="adopterName" id="name" type="text" placeholder="First and last name" required />
+                        </div>
+                    </div>
+
+                    <div class="contactRow">
+                        <label for="streetAddress">Street Address*</label>
+                        <div class="input">
+                            <input name="contactStreetAddress" id="streetAddress" type="text" required />
+                        </div>
+                    </div>
+
+                    <div class="contactRow">
+                        <label for="poBox">PO Box Number</label>
+                        <div class="input">
+                            <input name="contactPoBox" id="poBox" type="text" />
+                        </div>
+                    </div>
+
+                    <div class="contactRow">
+                        <label for="city">City*</label>
+                        <div class="input">
+                            <input name="contactCity" id="city" type="text" required />
+                        </div>
+                    </div>
+                    <div class="contactRow">
+                        <label for="zip">Zip Code*</label>
+                        <div class="input">
+                            <input name="contactZip" id="zip" type="text" minlength="5" maxlength="5" required />
+                        </div>
+                    </div>
+
+                    <div class="contactRow">
+                        <label for="state">State*</label>
+                        <div class="input">
+                            <input name="contactState" id="state" type="text" minlength="2" maxlength="2" required />
+                        </div>
+                    </div>
+
+                    <div class="contactRow">
+                        <label for="phone">Phone Number*</label>
+                        <div class="input">
+                            <input name="contactPhone" id="phone" type="tel" placeholder="(xxx) xxx-xxxx" required
+                                   pattern="^\d{10}$|^(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="form-check">
+
+                            <h4> Would you like us to send you special offers from associated cheese shops?</h4>
+                            <p1>
+
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optradio">Yes
+                                </label>
+                            </p1>
+                        </div>
+                        <div class="form-check">
+                            <p2>
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optradio">No
+                                </label>
+                            </p2>
+                        </div>
+
+
+                        <div class="contactRow">
+                            <label for="mail">E-mail*</label>
+                            <input name="contactEmail" id="mail" type="email" required />
+
+                            <div class="contactRow">
+                                <label for="name">Question/Comment</label>
+                                <input name="userFeedback" id="name" type="text" />
+                            </div>
+
+                        </div>
+                        <button class="buttonholder">Submit</button>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-sm-6 col-md-8 ">
+                <img src="images/wsFavoritePage1.png" class="img-fluid float-left" alt="Blocks and wheels of cheese">
+                <a class="twitter-timeline" data-tweet-limit="3" href="https://twitter.com/MurraysCheese">National Park Tweets - Curated tweets by TwitterDev</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                <script src="https://platform.linkedin.com/company/hy-vee" type="text/javascript">lang: en_US</script>
+                <script type="IN/FollowCompany" data-id="1337" data-counter="bottom"></script>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+</body>
+</html>

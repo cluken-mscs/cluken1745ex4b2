@@ -1,0 +1,33 @@
+﻿h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: 2em;
+    color:saddlebrown;
+}
+
+.lightbg {
+    background-color:bisque;
+    color: saddlebrown;
+}
+
+p {
+    color:ivory;
+}
+
+.darkbg {
+    color: bisque;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.col-sm-6 {
+    background-color: saddlebrown;
+}
+
+h2 {
+    color: ivory;
+}

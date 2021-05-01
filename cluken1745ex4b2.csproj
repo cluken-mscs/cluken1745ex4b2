@@ -1,0 +1,199 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F800EB6E-2EF9-429C-A7E8-21BD4B7ED859}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cluken1745ex4b2</RootNamespace>
+    <AssemblyName>cluken1745ex4b2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44373</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404Gourmetz.html" />
+    <Content Include="Awards.html" />
+    <Content Include="Charcuterie.html" />
+    <Content Include="CraftBeer.html" />
+    <Content Include="custom.css" />
+    <Content Include="default.html" />
+    <Content Include="Feedback.html" />
+    <Content Include="History.html" />
+    <Content Include="HowToPair.html" />
+    <Content Include="images\404errorBackground.png" />
+    <Content Include="images\beerPageHeader.png" />
+    <Content Include="images\cardPic1.png" />
+    <Content Include="images\cardPic2.png" />
+    <Content Include="images\carouselPic1.png" />
+    <Content Include="images\carouselPic2.png" />
+    <Content Include="images\headerBackground2.png" />
+    <Content Include="images\homePageHeader.png" />
+    <Content Include="images\homePageMiniImage.png" />
+    <Content Include="images\homePageMiniImage2.png" />
+    <Content Include="images\HowToPairHeader.png" />
+    <Content Include="images\specCheeseHeader.png" />
+    <Content Include="images\specCheesePic1.png" />
+    <Content Include="images\wsAwardsPage1.png" />
+    <Content Include="images\wsAwardsPage2.png" />
+    <Content Include="images\wsAwardsPage3.png" />
+    <Content Include="images\wsAwardsPage4.png" />
+    <Content Include="images\wsAwardsPage5.png" />
+    <Content Include="images\wsAwardsPage6.png" />
+    <Content Include="images\wsAwardsPage7.jpg" />
+    <Content Include="images\wsCharcuteriePage1.png" />
+    <Content Include="images\wsCharcuteriePage2.png" />
+    <Content Include="images\wsCharcuteriePage3.png" />
+    <Content Include="images\wsCharcuteriePage4.png" />
+    <Content Include="images\wsCharcuteriePage5.png" />
+    <Content Include="images\wsCraftBeerPage1.png" />
+    <Content Include="images\wsCraftBeerPage2.png" />
+    <Content Include="images\wsCraftBeerPage3.png" />
+    <Content Include="images\wsCraftBeerPage4.png" />
+    <Content Include="images\wsCraftBeerPage5.png" />
+    <Content Include="images\wsFavoritePage1.png" />
+    <Content Include="images\wsFormsPage7.png" />
+    <Content Include="images\wsHistoryPage1.png" />
+    <Content Include="images\wsHistoryPage2.png" />
+    <Content Include="images\wsHistoryPage3.png" />
+    <Content Include="images\wsHistoryPage4.png" />
+    <Content Include="images\wsHistoryPage5.png" />
+    <Content Include="images\wsHomePage1.png" />
+    <Content Include="images\wsHomePage2.png" />
+    <Content Include="images\wsHomePage3.png" />
+    <Content Include="images\wsHomePage4.png" />
+    <Content Include="images\wsHowToPairPage1.png" />
+    <Content Include="images\wsHowToPairPage2.png" />
+    <Content Include="images\wsHowToPairPage3.png" />
+    <Content Include="images\wsHowToPairPage4.png" />
+    <Content Include="images\wsQuickPicksPage1.png" />
+    <Content Include="images\wsQuickPicksPage2.png" />
+    <Content Include="images\wsQuickPicksPage3.png" />
+    <Content Include="images\wsQuickPicksPage4.png" />
+    <Content Include="images\wsQuickPicksPage5.png" />
+    <Content Include="images\wsSpecCheeseHeader.png" />
+    <Content Include="images\wsSpecCheesePage1.png" />
+    <Content Include="images\wsSpecCheesePage2.png" />
+    <Content Include="images\wsSpecCheesePage3.png" />
+    <Content Include="images\wsSpecCheesePage4.png" />
+    <Content Include="Page10error404.css" />
+    <Content Include="page1Home.css" />
+    <Content Include="page2QuickPicks.css" />
+    <Content Include="page3SpecCheese.css" />
+    <Content Include="page4Charcuterie.css" />
+    <Content Include="page5CraftBeer.css" />
+    <Content Include="page6HowToPair.css" />
+    <Content Include="page7Awards.css" />
+    <Content Include="page8History.css" />
+    <Content Include="page9Form.css" />
+    <Content Include="QuickPicks.html" />
+    <Content Include="SpecialtyCheese.html" />
+    <Content Include="Web.config" />
+    <Content Include="XMLFile.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52770</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44373/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

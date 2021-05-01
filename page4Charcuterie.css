@@ -1,0 +1,65 @@
+﻿body {
+    background-color: #800000;
+    color: #800000;
+}
+
+h1 {
+    color: #800000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: italic;
+}
+
+.pic1 {
+    position: center;
+    padding-left: 50px;
+
+}
+
+.highlight {
+    color: #1e1e1e;
+    font-style: italic;
+}
+
+h2 {
+    background-color: coral;
+    color: #800000;
+    width: 100%;
+}
+
+
+h3 {
+    color: coral;
+}
+
+p2 {
+    color: ivory;
+}
+
+
+
+h4 {
+    color: #800000;
+    width: 100%;
+}
+
+.popover {
+    position: fixed;
+    color: coral;
+}
+
+.images2 {
+    padding-top: 5em;
+}
+
+.modal-body {
+    color: black;
+}
+
+.btn {
+    background-color: coral;
+    color: #800000;
+}
+
+.container {
+    background-color: #b1a353;
+}

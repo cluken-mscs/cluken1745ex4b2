@@ -1,0 +1,42 @@
+﻿h1 {
+    border-color: #FFFFFF;
+    color: #E9967A;
+    font-style: italic;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    border-bottom-style: inset;
+    border-top-style: none;
+    padding-top: 5px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3 {
+    font-style: italic;
+}
+
+p {
+    color: #800000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.carousel {
+    background: black;
+    margin: auto;
+    width: 600px;
+}
+
+body {
+    background-color: lightsalmon;
+}
+
+.container {
+    background-color: palegoldenrod;
+}
